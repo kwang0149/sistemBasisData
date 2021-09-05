@@ -1,0 +1,34 @@
+group:pabrik makanan
+listMakanan = {
+kodeMakanan, namaMakanan, hargaPerKg, kotaProduksi
+'A001', 'beras', 10000, 'madiun'
+'A002', 'gula', 18000, 'lamongan'
+'A003', 'garam', 10000, 'gresik'
+'A004', 'tepung', 8000, 'bandung'
+'A005', 'telur', 28000, 'solo'
+}
+pelanggan = {
+idPelanggan, fName, lName, noTelepon, kota, pesanan, idStaffYangMelayani
+'46872', 'joko', 'bimo', '816467316', 'lamongan', 'tepung', 'ST002'
+'64912', 'dimas', 'bimo', '843173561', 'jogja', 'pisang', 'ST003'
+'19548', 'rafi', 'irfansyah', '824673126', 'jakarta', 'beras', 'ST003'
+'13574', 'fathur', 'rahman', '813576129', 'surabaya', 'jambu', 'ST002'
+'19248', 'ega', 'isfahani', '189164673', 'madiun', 'apel', 'ST001'
+}
+staff = {
+staffNumber, fName, lName, domisili, gaji, posisi, gender
+'ST001', 'aliya', 'zahra', 'lamongan', 1000000, 'asisten', 'P'
+'ST002', 'amalinda', 'jayanty', 'madiun', 2000000, 'asisten', 'P'
+'ST003', 'ariq', 'bimo', 'riau', 3000000, 'asisten', 'L'
+'ST004', 'tangguh', 'prawira', 'surabaya', 2500000, 'asisten', 'L'
+'ST005', 'aulia', 'cisatra', 'surabaya', 4000000, 'manager', 'L'
+'ST006', 'hatif', 'isfahani', 'malang', 5000000, 'general manager', 'L'
+}
+cabang = {
+id_cabang, jalan, kota, kodePos
+'CB1976', 'jl kedung cowek', 'surabaya', '46716'
+'CB1923', 'jl kusuma bangsa', 'surabaya', '46487'
+'CB1442', 'jl wijaya kusuma', 'lamongan', '35947'
+'CB1846', 'jl undaan wetan', 'jakarta', '61127'
+'CB3718', 'jl undaan kulon', 'malang', '36487'
+}
